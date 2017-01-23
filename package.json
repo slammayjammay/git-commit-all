@@ -1,7 +1,7 @@
 {
   "name": "git-commit-all",
   "version": "0.1.0",
-  "description": "Commits all files in a repo",
+  "description": "Adds and commits all files in a repo",
   "main": "dist/index.js",
   "bin": {
     "gall": "dist/index.js",
