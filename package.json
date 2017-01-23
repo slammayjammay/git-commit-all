@@ -1,0 +1,25 @@
+{
+  "name": "git-commit-all",
+  "version": "0.1.0",
+  "description": "Commits all files in a repo",
+  "main": "dist/index.js",
+  "bin": {
+    "gall": "dist/index.js",
+    "git-add-all": "dist/index.js"
+  },
+  "scripts": {
+    "build": "babel --presets=es2015 src/ -d dist/",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "all"
+  ],
+  "author": "Scott McKenzie",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
