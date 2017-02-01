@@ -4,7 +4,6 @@
   "description": "Adds and commits all files in a repo",
   "main": "dist/index.js",
   "bin": {
-    "gall": "dist/index.js",
     "git-add-all": "dist/index.js"
   },
   "scripts": {
