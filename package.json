@@ -4,7 +4,7 @@
   "description": "Adds and commits all files in a repo",
   "main": "dist/index.js",
   "bin": {
-    "git-add-all": "dist/index.js"
+    "git-commit-all": "dist/index.js"
   },
   "scripts": {
     "build": "babel --presets=es2015 src/ -d dist/",
