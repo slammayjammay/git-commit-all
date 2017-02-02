@@ -11,6 +11,8 @@ $ npm install
 $ npm pack
 # install the generated tarball
 $ npm install -g git-commit-all-X.X.X.tgz # XXX is the semantic version
+# remove the repo
+$ cd ../ && rm -rf git-commit-all
 ```
 
 # Usage
