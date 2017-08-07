@@ -1,7 +1,7 @@
 # `git-commit-all`
 
 ```sh
-$ npm install -g git-commit-all
+$ npm install -g https://github.com/slammayjammay/git-commit-all
 ```
 
 # Usage
